@@ -20,7 +20,7 @@ int main(){
 	}
 	for(int i = 0; i < 10; i++){
 		if(i%2!= 0){
-			soma+=vetor[1];
+			soma+=vetor[i];
 		}
 	}
 	printf("\nA soma das posicoes impares: %i", soma);
